@@ -1,0 +1,37 @@
+query {
+  repositoryOwner(login: "Wynn01") {
+    ... on ProfileOwner {
+      login
+      itemShowcase {
+        ... on ProfileItemShowcase {
+          items(first: 10) {
+            totalCount
+            nodes {
+              ... on Repository {
+                name
+                url
+                description
+                repositoryTopics(first: 15) {
+                  nodes {
+                    ... on RepositoryTopic {
+                      topic {
+                        name
+                      }
+                    }
+                  }
+                }
+                languages(first: 10) {
+                  nodes {
+                    ... on Language {
+                      name
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
