@@ -107,7 +107,7 @@ id="bg">
 <style>
  	#bg {
     /* The image used */
-    background-image: url("bg/wizard.png");
+    background-image: url("bgs/wizard.png");
  	}	
 	
 	main {
