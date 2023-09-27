@@ -107,7 +107,7 @@ id="bg">
 <style>
  	#bg {
     /* The image used */
-    background-image: url("wizard.png");
+    background-image: url("https://drive.google.com/uc?id=1A8b_upJAKPQ5CnbYF2-DOXTOSpINS5aR");
  	}	
 	
 	main {
